@@ -29,7 +29,7 @@
 }
 
 .profilebox{
-    background: #ff574a;
+    background: #20b2aa;
     text-align: center;
     padding: 40px 90px;
     color: #fff;
@@ -62,7 +62,13 @@
 
 }
 
+.tech{
+    margin-top: 10px;
+}
+
 .tech-icon{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 40px;
     filter: brightness(0) invert(1);
 }
@@ -80,14 +86,18 @@
 
 .profilebox button{
     background: #fff;
-    color: #ff574a;
+    color: #20b2aa;
     border: none;
     outline: none;
-    box-shadow: 0 5px 10px rgba(244, 67, 57, 0.5);
+    box-shadow: 0 5px 10px rgba(57, 244, 244, 0.5);
     padding: 15px 60px;
     cursor: pointer;
     border-radius: 30px;
     margin-bottom: -50px;
     font-weight: 600;
     font-size: 16px;
+}
+
+.hobbies{
+    margin-top: 10px;
 }
