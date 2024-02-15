@@ -58,5 +58,36 @@
     border-radius: 50%;
     background: #fff;
     padding: 6px;
+    margin-top: 40px;
 
+}
+
+.tech-icon{
+    width: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.profile-bottom{
+    background: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-right: -90px;
+    margin-left: -90px;
+    margin-bottom: -40px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.profilebox button{
+    background: #fff;
+    color: #ff574a;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 57, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
 }
