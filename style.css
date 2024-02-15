@@ -12,7 +12,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .transp {
     position: absolute;
@@ -21,9 +25,16 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
 }
 
 .profilebox{
-    background: #ff574f;
+    background: #ff574a;
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+    z-index: 2;
 
 }
